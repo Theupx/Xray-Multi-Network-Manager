@@ -52,7 +52,7 @@ if %errorlevel% neq 0 (
         echo.
         echo [+] Installing psutil...
         python -m pip install --upgrade pip >nul 2>&1
-        python -m pip install "psutil>=5.9.0"
+        python -m pip install -r requirements.txt
         if %errorlevel% neq 0 (
             echo [!] Failed to install psutil. Please check your internet connection.
             pause
@@ -77,7 +77,7 @@ if %errorlevel% neq 0 (
     if /i "%choice_persian%"=="Y" (
         echo.
         echo [+] Installing arabic_reshaper and python-bidi...
-        python -m pip install arabic_reshaper python-bidi
+        python -m pip install -r requirements.txt
         if %errorlevel% neq 0 (
             echo [!] Failed to install Persian support packages. Please check your internet connection.
             pause
