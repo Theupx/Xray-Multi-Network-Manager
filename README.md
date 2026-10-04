@@ -1,5 +1,7 @@
 # Xray Multi-Network Manager
 
+**English** | [فارسی](README.fa.md)
+
 [![CI](https://github.com/Theupx/Xray-Multi-Network-Manager/actions/workflows/ci.yml/badge.svg)](https://github.com/Theupx/Xray-Multi-Network-Manager/actions/workflows/ci.yml)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
@@ -61,7 +63,8 @@ V-PROXY and TUN require an imported proxy server.
 ├── .github/workflows/
 │   └── ci.yml           # Windows syntax and lint checks
 ├── LICENSE
-└── README.md
+├── README.md
+└── README.fa.md
 ```
 
 ## 📦 Requirements
